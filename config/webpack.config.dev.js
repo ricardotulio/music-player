@@ -159,6 +159,7 @@ module.exports = {
           // in development "style" loader enables hot editing of CSS.
           {
             test: /\.css$/,
+            exclude: /node_modules/,
             use: ExtractTextPlugin.extract({
               fallback: 'style-loader',
               use: [

@@ -1,0 +1,9 @@
+.playerScreen {
+  width: 100%;
+  height: calc(77% - 36px);
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

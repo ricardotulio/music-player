@@ -1,0 +1,7 @@
+$color-1: #ccc;
+$color-2: #34373e;
+
+%transparent {
+  background-color: $color-2;
+  opacity: 0.2;
+}

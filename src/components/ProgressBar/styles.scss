@@ -1,0 +1,49 @@
+@import "../../styles/colors.scss";
+
+.progressBar {
+  width: calc(100%);
+
+  align-self: flex-end;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-between;
+}
+
+.timeSpent, .timeRemaining {
+  color: #fff;
+  font-size: 8pt;
+}
+
+.currentProgress {
+  width: 80%;
+  display: flex;
+
+  padding: 0px 10px;
+
+  flex-direction: row;
+  align-items: center;
+  align-content: space-around;
+}
+
+.progress, .remaining {
+  width: calc(70% - 6px);
+  height: 2px;
+}
+
+.progress {
+  background-color: #fff;
+}
+
+.remaining {
+  background-color: #444;
+}
+
+.cursor {
+  width: 12px;
+  height: 12px;
+
+  background-color: #fff;
+  border-radius: 50%;
+}

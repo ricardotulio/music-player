@@ -1,0 +1,16 @@
+.albumCover {
+  width: 100%;
+  height: auto;
+
+  padding: 3% 0px;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.albumCover img {
+  width: 70%;
+}
