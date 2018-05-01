@@ -2,8 +2,6 @@
   width: 100%;
   height: auto;
 
-  padding: 3% 0px;
-
   position: relative;
   display: flex;
   flex-direction: column;
@@ -13,4 +11,16 @@
 
 .albumCover img {
   width: 70%;
+}
+
+@media (min-aspect-ratio: 1/1) {
+  .albumCover {
+    width: auto;
+    height: calc(100% - 80px);
+  }
+
+  .albumCover img {
+    width: auto;
+    height: 100%;
+  }
 }
